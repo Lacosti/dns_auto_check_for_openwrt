@@ -27,9 +27,9 @@ scp -O "$env:USERPROFILE\Desktop\dns-auto.bash" root@192.168.9.1:/usr/bin/dns-au
 > **Важно:** `192.168.9.1` - пример IP-адреса роутера.
 > Замените его на IP-адрес вашего роутера, если он отличается.
 > Если по какой то причине, ip роутера вам не известен, вместо ip адреса можно использовать `openwrt.lan`, например:
-```powershell
-scp -O "$env:USERPROFILE\Desktop\dns-auto.bash" root@openwrt.lan:/usr/bin/dns-auto
-```
+>```powershell
+>scp -O "$env:USERPROFILE\Desktop\dns-auto.bash" root@openwrt.lan:/usr/bin/dns-auto
+>```
 
 После выполнения команды файл будет загружен в:
 
